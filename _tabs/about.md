@@ -7,11 +7,13 @@ order: 4
 _Cybersecurity Specialist & Ethical Hacker_
 
 <p>This blog is so I can post things I'm working on or discover related to infosec :)</p>
+
 ---
 
 **Experience**
 - Cyber Defense Analyst - 4mos
 - Systems Administrator - 15mos
+
 ---
 
 **Certifications:**  
@@ -21,6 +23,7 @@ _Cybersecurity Specialist & Ethical Hacker_
 - eLearnSecurity Junior Penetration Tester (eJPTv2)
 - CompTIA Security+ (Sec+)
 - GIAC Foundational Cybersecurity Technologies (GFACT)
+
 ---
 
 **Education:**  
