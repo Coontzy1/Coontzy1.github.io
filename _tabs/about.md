@@ -6,9 +6,11 @@ order: 4
 **Austin Coontz**  
 _Cybersecurity Specialist & Ethical Hacker_
 
+This blog is so I can post things I'm working on or discover related to infosec :)
 ---
-
 **Experience**
+- Cyber Defense Analyst - 4mos
+- Systems Administrator - 15mos
 
 **Certifications:**  
 - Offensive Security Certified Professional (OSCP)
