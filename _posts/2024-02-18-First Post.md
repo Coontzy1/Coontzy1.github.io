@@ -6,4 +6,8 @@ categories: []
 tags: []
 ---
 
-This is the first post on my blog. You can see an animal below.
+This is the first post on my blog. 
+
+___ 
+
+This blog will eventually encompass very cool things like hacking and other cool things like defending.
