@@ -10,4 +10,5 @@ This is the first post on my blog.
 
 ___ 
 
-This blog will eventually encompass very cool things like hacking and other cool things like defending.
+This blog was inspired by another blog that said why I should have a blog.
+As I encounter cool information and tools and tactics and awesomeness, I will attempt to record it here
