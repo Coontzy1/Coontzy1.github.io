@@ -8,5 +8,8 @@ tags: []
 
 This is the first post on my blog. 
 
-This blog was inspired by another blog that said why I should have a blog.
-As I encounter cool information and tools and tactics and awesomeness, I will attempt to record it here
+I was inspired by [Graham Helton's Blog](https://grahamhelton.com/blog/infosecblog1/) and I took strong inspiration (I copied his template) from [Eatthebuffet](https://eatthebuffet.github.io/).
+
+As I search for a super cool cyber-tech hacking security job, I will fill out this blog with things like IT-related blogs.
+
+Enjoy
