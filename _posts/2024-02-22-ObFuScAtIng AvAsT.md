@@ -10,7 +10,7 @@ Greetings! I was bored so I decided to see how hard it would be to bypass a simp
 
 ![Image of Avast showing the Windows PC is protected.](/assets/img/Obfuscating_Avast/Protected_Avast_Screenshot.png)
 
-This lab environment is simply a Windows 10 Pro box with some professional modifications and an Attack Host (Kali Linux) on the same private network. Initially, I started an Nmap scan confirm the Windows host is alive and the services running.
+This lab environment is simply a Windows 10 Pro box with some professional modifications and an Attack Host (Kali Linux) on the same private network. Initially, I started an NMAP scan to enumerate the host.
 ![Screenshot of NMAP command against Windows 10 Host](/assets/img/Obfuscating_Avast/NMAP_Scan_Screenshot.png)
 
 As seen in the screenshot above, SMB (Port 445) is running. To enumerate SMB, I used smbclient to successfully authenticate with the '-N' (no username/password) option. 
