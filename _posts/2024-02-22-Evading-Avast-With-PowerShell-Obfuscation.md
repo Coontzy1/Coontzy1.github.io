@@ -6,14 +6,15 @@ categories: []
 tags: []
 ---
 
-Greetings! I was bored so I decided to see how hard it would be to bypass a simple home antivirus. I googled "free antivirus" and the first thing that popped-up was [Avast](https://www.avast.com/en-us/index#pc). I installed the x64 executable on an updated Windows 10 Pro system (Note: This is a completely default install. I did not mess with any settings). I wanted to do this in a lab environment where I achieve access prior to trying to get around the antivirus. A screenshot confirming the antivirus is running can be seen below.
+Greetings! I was bored so I decided to see how hard it would be to bypass a simple home antivirus. I searched "free antivirus" on Google and the first thing that popped-up was [Avast](https://www.avast.com/en-us/index#pc). I installed the x64-bit (x64) executable on an updated Windows 10 Pro system (Note: This is a completely default install. I did not mess with any settings). I wanted to do this in a lab environment where I achieve access prior to trying to get around the antivirus. A screenshot confirming the antivirus is running can be seen below.
 
 ![Image of Avast showing the Windows PC is protected.](/assets/img/Evading-Avast-With-PowerShell-Obfuscation/Protected_Avast_Screenshot.png)
 
-This lab environment is simply a Windows 10 Pro box with some professional modifications and an Attack Host (Kali Linux) on the same private network. Initially, I started an NMAP scan to enumerate the host.
+This lab environment consists of a Windows 10 Pro system and an Attack Host (Kali Linux) on the same private network. Initially, I started an Nmap scan to enumerate the host.
 ![Screenshot of NMAP command against Windows 10 Host](/assets/img/Evading-Avast-With-PowerShell-Obfuscation/NMAP_Scan_Screenshot.png)
 
-As seen in the screenshot above, SMB (Port 445) is running. To enumerate SMB, I used smbclient to successfully authenticate with the '-N' (no username/password) option. 
+As seen in the screenshot above, SMB (Port 445) is running. To enumerate SMB, I used smbclient, a command line tool that facilitates connections to SMB servers, to successfully authenticate with the '-N' flag.
+
 ![Screenshot of SMBClient listing with null session to see shared drives](/assets/img/Evading-Avast-With-PowerShell-Obfuscation/SMBClient_List_Screenshot.jpeg)
 Following successful connection, I attempted to place a file without a username and password. This attempt failed due to security settings as seen in the screenshot below. 
 
@@ -32,7 +33,7 @@ The reverse shell gets stuck uploading in the previous image. Swapping over to t
 
 Avast was likely able to detect a threat here because [Invoke-PowerShellTcp.ps1](https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcp.ps1) is a seven year-old reverse shell script with around 8,000 stars on Github. Although this script isn't necessarily malware, it definitely isn't a script an administrator would commonly use. Thus, it is classified as a PUP (Potentially Unwanted Program) and blocked.
 
-My initial thought to evade detection is to obfuscate the script. Through my professional Googling I was able to find a script called [Chimera](https://github.com/tokyoneon/Chimeramade) made  by [TokyoNeon](https://x.com/tokyoneon_?s=20).
+My initial thought to evade detection is to obfuscate the script. Through my online research, I was able to find a script called [Chimera](https://github.com/tokyoneon/Chimeramade) made  by [TokyoNeon](https://x.com/tokyoneon_?s=20).
 
 >Chimera is a (shiny and very hack-ish) PowerShell obfuscation script designed to bypass AMSI and antivirus solutions. It digests malicious PS1's known to trigger AV and uses string substitution and variable concatenation to evade common detection signatures.
 
