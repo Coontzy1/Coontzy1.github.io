@@ -54,3 +54,48 @@ I think regardless of who is paying, CPTS is the best bang for your buck. The co
 Also, check out PinkDraconian and eatthebuffet for additional coverage.  
 [PinkDraconian's Youtube Video (CPTS vs OSCP)](https://www.youtube.com/watch?v=-5s2R0Mldgw)  
 [eatthebuffet's Blog Post](https://eatthebuffet.github.io/posts/CPTS-or-OSCP/)  
+
+## Other Certifications
+I suppose I've taken some other certifications. Here they are with a short review on each. 
+### CompTIA Security Plus (SY0-701) - Oct. 2022
+##### Introduction  
+I completed the CompTIA Security+ exam because everyone recommends this going into cybersecurity. I was not completely new to cybersecurity when I decided to pursue this exam. I took this my junior year of college.
+##### Content and Format:
+You can pass this exam using [Professor Messer's Videos](https://www.youtube.com/professormesser) and one other source of material (that hopefully comes with practice questions). The content isn't really given to you for CompTIA exams. CompTIA posts exam objectives and an acronym list that can be very useful for passing the exam. You should be able to recall almost all of the acronyms. This exam is proctored and consists of mostly multiple choice questions (MCQ) with a few performance based questions (PBQs).
+##### Experience and Takeaways
+I think this is a great introduction to information technology / cybersecurity lingo. This exam essentially taking acronyms, being able to define them and use them in a practical scenarios. Security+ can be passed with a relatively low amount of studying due to the multiple choice questions; however, it is very practical in terms of conversing in a real work environment. I would recommend this exam to almost anyone new to IT.
+### GIAC Foundational Cybersecurity Technologies (GFACT) - Oct. 2022
+##### Introduction  
+I took this exam because I won the course from a CTF competition. 
+##### Content and Format:
+This exam has good foundational knowledge related to cybersecurity. It covers multiple introductions to Linux, Windows, security, operating systems, forensics, exploitations, hardware, and programming. It pretty much touches on all aspects of IT and security. The exam format is (I think) completely multiple choice.
+##### Experience and Takeaways
+This is a very pricey exam if it is not payed for by an employer. I would not recommend paying out of pocket for this exam and some generalized self-study would cover the content quite well. Nevertheless, the content is very sufficient. It details all of the concepts and provides great examples. The instructor (pre-recorded videos) also explained all of the topics very well. I think money would be better spent on more advanced GIAC certs, but this exam taught me they have very well-structured material.
+### Cisco Certified Networking Associate (CCNA) - Mar. 2023
+##### Introduction  
+I took this exam because I wanted to verify my networking skills from my college networking classes. This took an exceptional amount of grindy studying in order to understand complex networking topics.
+##### Content and Format:
+I highly recommend watching [Jeremy's IT Lab](https://www.youtube.com/@JeremysITLab) to learn the content on this exam. Additionally, you must practice with packet tracer and learn specifics of networking protocols. The exam consists of a lot of multiple choice questions as well as multiple practical networking examples where you must configure/fix a network.
+##### Experience and Takeaways
+I thought I was failing this exam the entire time until the exam was over. I did really well on the practical questions and apparently decent enough on the multiple choice questions. This exam is definitely a great coverage of most networking concepts that provide a foundation of networking that is likely sufficient for all different areas of IT (except like networking or cloud). I recommend this exam as it requires a decent understanding of networking concepts and requires practical demonstrations opposed to Network+.
+### CompTIA Pentest Plus (PT0-003) - May 2024
+##### Introduction  
+YOLO'd this one. I took the beta version of this exam because it was 50$. This was fun because I said to myself "surely if I can hack a box I can pass Pentest+".
+##### Content and Format:
+Similar to Security+, the content is a lot of acronyms and correctly using them in their respective scenarios. I didn't study any of the content for learning.
+##### Experience and Takeaways
+This was a fun exam to take, but I wouldn't exactly recommend it. You can learn the acronyms, definitions, and examples of everything on your own. I don't think this holds much weight or value for practically being able to pentest.
+### Hack The Box Certified Bug Bounty Hunter (CBBH) - Jun. 2024
+##### Introduction  
+I went through the Hack The Box's academy web modules in order to learn more about web app pentesting. Consequently, I decided to do the exam to prove my skills.  
+##### Content and Format:
+Content is exactly the same as the HTB CPTS review. Text-based modules with multiple labs to practically apply the knowledge. The content focuses on a wide range of web vulnerabilities. The exam format is a 7-day exam where you must achieve a certain amount of flags in order to pass. Luckily, I passed this exam on the first try and I thought it was very difficult (similar difficulty to CPTS). I spent all of my nighttime hours attempting to break into the different web apps. Yet again, all of the content needed for the exam is provided in the material.
+##### Experience and Takeaways
+For a web pentesting certification at this price, amazing. I would recommend for anyone who loves pentesting and wants to learn more about web vulnerabilities. 
+### OffSec Wireless Professional (OSWP) - Aug. 2024
+##### Introduction  
+I took this exam because I knew nothing about wireless hacking. I also had a free attempt due to me purchasing the Learn One subscription through OffSec. I took about 2 weeks of scattered studying before attempting the exam.
+##### Content and Format:
+There is sufficient information regarding wireless technologies, attacks and mitigations. The content is text based I did not like how OffSec essentially required you to buy hardware in order to practice this exam. I would heavily recommend checking out [Wi-Fi Challenge Labs](https://lab.wifichallenge.com/) for a virtualized setup. The exam is 4 hours and requires 2/3 networks hacked to pass. 
+##### Experience and Takeaways
+I wouldn't go out of my way to take this content and exam to learn about Wi-Fi hacking. If you have the Learn One subscription, more knowledge is always great. I did learn valuable techniques. It might also be worth checking out the creator of the [Wi-Fi Challenge Labs](https://academy.wifichallenge.com/) and their recent training. 
