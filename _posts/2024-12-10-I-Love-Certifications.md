@@ -43,9 +43,18 @@ This exam was a piece of cake after CPTS. I passed in a few hours and started wr
 So, there's hundreds of different certifications you COULD take as an 'intro to pentesting'. Primarily discussing the most popular, reputable, and practical ones here. The main ones are OSCP, PNPT (Practical Network Penetration Tester) and CPTS. 
 
 As I have not taken PNPT, industry professional [Andrew Lentz](https://www.linkedin.com/in/andrew-lentz-53b20826a/) describes PNPT as 
-```
-Andrew's take on PNPT
-```
+
+>TL;DR about me. I come from a healthcare -> Voice Over -> Outside Sales background; zero prior IT/Cyber Security experience.
+>
+>The course took you from OSINT gathering -> username enumeration -> light web app attacks/vulns -> Internal Foothold -> AD enumeration and common lateral movement/privilege escalations -> full domain compromise. Everything you need to pass the PNPT certification exam is in the training.
+>
+>The format of the exam is, I believe, as close to a real world External/Internal Penetration test as possible. Without giving much away, you start from an external perspective and then have to compromise your way into a “decent” sized AD environment. You get 5 days to complete the test, and an additional 2 days to complete the report. At the end, once the report was submitted, reviewed, and approved you then had a 30-minute debrief with someone from the TCM Security team.
+>Experience and Takeaways
+>
+>With this being my only hacking cert (currently), It was a great experience. After failing my first attempt…expecting a “git gut” attitude from TCM and their community, I was met with nothing but positivity. At the end of the day, this isn’t a CTF-type challenge. So, after going back to the course, updating my notes, redoing some of the provided labs, I was able to pass the exam in 2-1/2 days.
+>
+>The knowledge and skills learned from this course and exam set a great foundation for me as a Pentester. What is always great about TCM and the PNPT is they have a huge community of people (via their discord). This was definitely a positive because at the time I didn’t know anyone in the cyber field, and now have friends across all aspects of the beast that is Cyber Security. I couldn’t recommend this certification enough! While it Is “entry” level, TCM did release a “Junior” version of this exam that is even more appropriate for those brand new to Cyber Security. 10/10, would take this exam again.
+-Andrew
 
 From a cost perspective, PNPT and CPTS are both significantly less expensive than OSCP if it is coming out of your pocket. OSCP is more reputable when it comes industry recognition and checking a box from HR. I personally do not see all the hype around OSCP after my easy experience with the exam. In terms of difficulty, CPTS is more difficult than OSCP given the longer exam length and in-depth content. PNPT also gets a realistic bonus as you must present a technical debrief in front of a live panel, which is not seen in any of the other certifications. The infrastructure and community is also a big factor in these certifications. HackTheBox has a welcoming community through their discord and support via online services (depending on subscription tier). OffSec's community help is primarily through discord support tickets, which is different. Lastly, there have been complaints about infrastructure issues regarding exam and lab environments. I faced little infrastructure issues with either of these exams.
 
