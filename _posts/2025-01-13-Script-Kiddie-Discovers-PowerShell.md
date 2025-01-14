@@ -7,7 +7,7 @@ tags: []
 ---
 
 ## Introduction
-This blog is just be playing with PowerShell and learning how the syntax works. Anything here should be used for EDUCATIONAL PURPOSES ONLY. Enjoy
+This blog is just me playing with PowerShell and learning how the syntax works. Anything here should be used for EDUCATIONAL PURPOSES ONLY. Enjoy
 ## PowerShell Screenshotting Script
 ### Comments
 The [PowerShell script](https://github.com/Coontzy1/HacknScripts/blob/master/screenshotter.ps1) essentially takes screenshots of the victim's desktop, saves them, and sends those screenshots to an attacker listener. I'm going to break the code section by section. Most well-written PowerShell scripts include a beginning section where the script is summarized (SYNOPSIS). Next, there is an included example of how to run the script. Lastly, there are detailed definitions of parameters. None of this is necessary for script functionality, but is simply for readability.
