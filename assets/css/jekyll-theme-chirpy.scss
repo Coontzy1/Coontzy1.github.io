@@ -1,0 +1,11 @@
+---
+---
+
+@import 'main';
+
+/* Make post images display at full content width */
+.post-content img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
